@@ -7,4 +7,4 @@ __pycache__/
 *.py[cod]
 Untitled.ipynb
 Untitled[a-zA-Z0-9]*.ipynb
-Untitled-*.ipynb
+Untitled*.ipynb
