@@ -1,0 +1,12 @@
+[
+  { "name": "Alice", "height_cm": 170, "weight": 55 },
+  { "name": "Bob", "height_cm": 180, "weight": 70 },
+  { "name": "Charlie", "height_cm": 175, "weight": 65 },
+  { "name": "David", "height_cm": 203, "weight": 110 },
+  { "name": "Eve", "height_cm": 173, "weight": 60 },
+  { "name": "Frank", "height_cm": 155, "weight": 110 },
+  { "name": "Grace", "height_cm": 169, "weight": 45 },
+  { "name": "Hannah", "height_cm": 165, "weight": 50 },
+  { "name": "Ivan", "height_cm": 175, "weight": 70 },
+  { "name": "John", "height_cm": 210, "weight": 95 }
+]
