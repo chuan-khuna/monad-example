@@ -11,6 +11,6 @@ pip install PyMonad
 ## Create Jupyter Slides
 
 ```bash
-jupyter nbconvert <notebook.ipynb> --to slides --post serve 
+jupyter nbconvert <notebook.ipynb> --to slides --post serve
 # --no-input --no-prompt
 ```
