@@ -61,7 +61,7 @@ class Maybe(Generic[T]):
 
 
 class Just(Maybe):
-    def __init__(self, value: T) -> 'Just[T]':
+    def __init__(self, value: T) -> "Just[T]":
         self.value = value
 
     def is_nothing(self):
@@ -81,7 +81,7 @@ class Just(Maybe):
 
 
 class Nothing(Maybe):
-    def __init__(self, err_message: str = None) -> 'Nothing[str]':
+    def __init__(self, err_message: str = None) -> "Nothing[str]":
         self.error = err_message
 
     def is_nothing(self):
@@ -90,7 +90,7 @@ class Nothing(Maybe):
     def is_just(self):
         return False
 
-    def bind(self, func: Callable[[T], Maybe[S]]) -> 'Nothing[str]':
+    def bind(self, func: Callable[[T], Maybe[S]]) -> "Nothing[str]":
         """When the input of `bind` is `Nothing`
         the output is also `Nothing`
 
@@ -106,9 +106,9 @@ class Nothing(Maybe):
     def __str__(self):
         if self.error is None:
             return "Nothing"
-        return f"{self.error}"
+        return f"Nothing({self.error})"
 
     def __repr__(self) -> str:
         if self.error is None:
             return "Nothing"
-        return f"{self.error}"
+        return f"Nothing({self.error})"
