@@ -1,9 +1,9 @@
 # Python 3.10, 3.11
 # PyMonad==2.4.0
 
-from pymonad.either import Left, Right, Either as pyEither
+from pymonad.either import Either as pyEither
 
-from typing import Any, Callable, Generic, TypeVar
+from typing import Any, Generic, TypeVar
 
 
 M = TypeVar('M')

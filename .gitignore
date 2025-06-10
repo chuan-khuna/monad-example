@@ -10,3 +10,5 @@ Untitled[a-zA-Z0-9]*.ipynb
 Untitled*.ipynb
 
 *.html
+
+.venv
